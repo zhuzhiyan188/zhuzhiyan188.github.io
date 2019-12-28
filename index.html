@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>凌波微步的个人博客</title>
+	<link rel="stylesheet" type="text/css" href="./public/blog.css">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="all">
+	<!-- 头部 -->
+	<div id="header">
+		<!-- 导航栏-->
+		<nav class="navbar navbar-default" role="navigation" >
+			<div class="container-fluid"> 
+				<div class="navbar-header">
+                    
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target="#example-navbar-collapse">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="#">我的博客</a>
+				</div>
+				<div class="collapse navbar-collapse" id="example-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">我的首页</a></li>
+						<li><a href="/fenlei.html">我的文章</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								更多 <b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">链接一</a></li>
+								<li><a href="#">链接二</a></li>
+								<li><a href="#">链接三</a></li>
+								<li class="divider"></li>
+								<li><a href="#">分离的链接</a></li>
+								<li class="divider"></li>
+								<li><a href="#">另一个分离的链接</a></li>
+							</ul>
+						</li>
+					</ul>
+                
+				</div>
+               
+			</div>
+		</nav>
+	<!-- 导航栏结束 -->
+		
+	<!-- 轮播图开始 -->
+     <div id="lunbotu">
+        
+        <!-- 图片 -->
+        <img id="tu" src="/public/img/h7.jpg" alt="">
+
+        <!-- <div class="btn">
+            <div class="btn-left" onclick="prev()">
+                左
+            </div>
+            <div class="btn-right" onclick="next()">
+                右
+            </div>
+        </div>
+ -->
+        <div class="dot">
+            <div class="dot-item active" onclick ="dotp(0)"></div>
+            <div class="dot-item"  onclick="dotp(1)"></div>
+            <div class="dot-item"  onclick="dotp(2)"></div>
+        </div>
+    </div>
+    <!-- 轮播图结束 -->
+	
+	<div id='header-right'>
+		<div id = 'header-right-left'>
+            <div id = 'header-right-left1' >
+                <img src="/public/img/h3.jpg" style="width: 100%;height: 100%;transition: all .5s;">
+            </div>
+            <div id="header-right-left2">
+                <img src="/public/img/t3.jpg" style="width: 100%;height: 100%;transition: all .5s;">
+            </div>
+        </div>
+
+        <div id = 'header-right-right'>
+            
+            <h3 >  我的名片</h3>
+
+                <!-- <br><br><br><br> -->
+            <hr>
+            <div class="toux">
+                <img src="/public/img/tx.jpg">
+            </div>
+            <h4 >  网名：凌波微步</h4>
+            <h4 >  职业：IT | web前端设计</h4>
+            <h4 >  爱好：旅游、摄影、平面设计</h4>
+            <h4 >  现居：广西 桂林</h4>
+
+
+        </div>
+
+	</div>
+
+	</div>
+	<!-- 头部结束 -->
+	
+
+
+
+
+
+	<!-- 中间部分 -->
+	
+	<div>
+		<h1 id="bloglife" style="text-align: center;" >————Blog changes Life————</h1>
+	</div>
+	
+
+	<br>
+
+	<!-- 栅格系统 -->
+<div class="container" style="width: 92%;height: 500px;">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-9">
+                <div class="wenzhang" >
+                    <!-- <div class="wodewenzhang"> -->
+                        
+                        <h3 style="padding-left: 30px;padding-top: 20px;">  我的文章</h>
+
+                        
+                    <!-- </div> -->
+                    <hr>
+                        <div class="wenzhang-left">
+                        <div class="wentu1"> 
+                            <img src="/public/img/t2.jpg" style="width: 100%;height: 100%;transition: all .5s;border-radius: 3%;">
+                         </div>
+
+                        <!--  <div class="wen1">
+                             
+                         </div> -->
+                        
+                        <div class="wentu2"> 
+                        <img src="/public/img/t1.jpg" style="width: 100%;height: 100%;transition: all .5s;border-radius: 3%;"> 
+                       </div>
+                       <!-- <div class="wen2">
+                           
+                       </div> -->
+                       
+                        <div class="wentu3"> 
+                        <img src="/public/img/t4.jpg" style="width: 100%;height: 100%;transition: all .5s;border-radius: 3%;"> 
+                       </div>
+                       </div>
+
+                       <div class="wenzhang-right">
+                            
+
+                           
+                               <!-- 
+标题: 123
+内容:  -->
+
+<p><!-- site.posts 表示集合 --></p>
+
+<div class="wenzhang1">
+<h3> <a href="/eles/2019/12/25/wenzhangyi.html" style="text-decoration:none;
+    color:black ;">大数据时代背景下的人工智能</a></h3>
+<h5><blockquote>
+  <p>我们身处在一个信息时代，人们每天都会通过各种各样的渠道去接受信息、传递信息。现如今我们一天接受的信息量可能比古人几年接受的都多。</p>
+</blockquote>
+</h5>                    
+</div>
+
+<div class="wenzhang1">
+<h3> <a href="/eles/2018/12/14/wenzhangsan.html" style="text-decoration:none;
+    color:black ;">我国网络空间安全存在的问题及治理对策</a></h3>
+<h5><blockquote>
+  <p>摘 要：随着信息技术的发展和互联网的进一步普及,我国网络空间日趋庞大和复杂,而网络空间的治理却相对滞后:网络立法不够系统和全面,需要进一步完善</p>
+</blockquote>
+</h5>                    
+</div>
+
+<div class="wenzhang1">
+<h3> <a href="/about-web/2018/12/14/wenzhanger.html" style="text-decoration:none;
+    color:black ;">Web前端的核心技术与发展历程</a></h3>
+<h5><blockquote>
+  <p>前端开发是创建Web页面或app等前端界面呈现给用户的过程，通过HTML，CSS及JavaScript以及衍生出来的各种技术、框架、解决方案，来实现互联网产品的用户界面交互。</p>
+</blockquote>
+</h5>                    
+</div>
+
+<!-- 遍历文章 -->
+
+
+
+                           <!-- </div>
+                           <div class="wenzhang2">
+                              
+                           </div>
+                           <div class="wenzhang3">
+                              
+                           </div> -->
+                       </div>
+                   
+                </div>                 
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <div class="jieshao">
+                     <div class="jieshao1">
+                        <center>
+                            <h3 style="padding-top:50px;">本站运行时间</h3><hr>
+                            <div class="yunxing">
+                        <h4 id="runtime" style="padding-top:50px; ">
+                        <br></h4>
+                         </div>
+                        </center>
+                         
+                     </div>
+
+                     <div class="jieshao2">
+                         <h4 style="">更多推荐 | 原创博客</h4>
+                         <br>
+                      <div class="tuijian">
+                        
+                        <a href="https://www.runoob.com/bootstrap/bootstrap-intro.html" style="text-decoration:none;">bootstrap | 菜鸟教程</a> <br><br>
+
+                        <a href="https://www.yangqq.com/download/div/" style="text-decoration:none;">优秀原创个人博客模板</a><br><br>
+
+                        <a href="http://jquery.cuishifeng.cn/index.html" style="text-decoration:none;">JQuery API | 中文文档</a><br><br>
+
+                        <a href="http://www.itheima.com/special/brandzly/index.html?jingjiahmpz-pz-pc-biaoti" style="text-decoration:none;">黑马程序员 | php python javaEE </a><br><br>
+                        
+                        <a href="http://jxhx2.yangqq.com/notice/27.html" style="text-decoration:none;">为什么说10月24日是程序员的节日</a>
+
+                     </div>
+
+                     </div>
+                    
+                </div>      
+            </div>
+        </div>
+</div>
+
+
+
+<!-- 栅格系统 -->
+<br>
+<br>
+<br>
+<br>
+
+
+
+<!-- 旅游笔记 -->
+<br>
+<hr>
+
+
+ <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8">
+                <div class="lvtu">
+                    <div>
+                         <h1 id="bloglife" style="text-align: center;" >————Traval Tips————</h1>
+                         <hr>
+                    </div>
+                    <div>
+                       <img src="/public/img/h11.jpg" >  
+                    </div>
+                </div>
+            </div>  
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                 <div class="tip">
+                     
+                 </div>  
+            </div>
+        </div>
+    </div>
+
+
+<!-- 旅游笔记 栅格 -->
+
+    <br>
+    <br>
+        <h2 style="text-align: center;" >——魔都 · 上海——</h2 >
+    <br>
+    <div class="" style="margin-left: 7.5%">
+        <img src="/public/img/s2.jpg">
+    </div>
+
+   
+
+    <br>
+
+    <hr>
+    <h2 style="text-align: center;" >——西泠 · 印社——</h2 >
+    <br>
+    <div>
+        <img class="" src="./public/img/s3.png" style="margin-left: 7.5%">
+        <img src="/public/img/s4.jpeg" style="margin-left: 10px" >
+        <img src="/public/img/s5.jpeg" style="margin-left: 10px">
+
+    </div>
+
+
+
+
+<!-- 底部 -->
+<br>
+<br>
+<br>
+<div class="jumbotron text-center" >
+  <p>谢谢观看</p>
+</div>
+<!-- 底部 -->
+
+
+</div>
+
+
+
+
+
+	<script>
+		
+		//轮播图开始
+        start();
+        
+        var imgs = [
+            '/public/img/h7.jpg',
+            '/public/img/t7.jpg',
+            '/public/img/t8.jpg'
+        ];
+
+        // 当前是那一张图片
+        var imgIndex = 0;
+
+        var timer;
+
+        function dotp(num){
+            imgIndex = num;
+            show();
+            showDot();
+
+        }
+
+        // 切换图片
+        function show()
+        {
+            tu.src = imgs[imgIndex];
+        }
+
+        function showDot()
+        {
+            var _dots = document.getElementsByClassName('dot-item');
+
+            for (var i = 0; i < _dots.length; i++) {
+                _dots[i].classList.remove('active');
+            }
+
+            _dots[imgIndex].classList.add('active');
+            console.dir(imgIndex);
+        }
+        
+        
+
+
+        function start()
+        {
+            timer = setInterval(function(){
+                // 切换图片
+                show();
+
+                // 切换点
+                showDot();
+
+                // 改变索引
+                imgIndex++;
+
+                // 超过最后一张图则显示第一张
+                if (imgIndex > imgs.length - 1) {
+                    imgIndex = 0;
+                }
+
+            }, 1500);
+        }
+
+
+        function next()
+        {
+            imgIndex++;
+
+            // 超过最后一张图则显示第一张
+            if (imgIndex > imgs.length - 1) {
+                imgIndex = 0;
+            }
+
+            show();
+
+            showDot();
+        }
+
+        function prev()
+        {
+            imgIndex--;
+
+
+            if (imgIndex < 0) {
+                imgIndex = imgs.length - 1;
+            }
+
+            show();
+
+            showDot();
+        }
+
+
+        lunbotu.onmouseenter = function() {
+            clearInterval(timer);
+        }
+
+        lunbotu.onmouseleave = function() {
+
+            imgIndex--;
+
+            if (imgIndex < 0) {
+                imgIndex = imgs.length - 1;
+            }
+
+            start();
+        }
+
+        //轮播图结束
+
+
+    window.onload = function(){
+    // 开始时间
+    var start = new Date("2019/12/25 12:00:00").getTime();
+    setInterval(function(){
+        // 现在
+        var now = new Date().getTime();
+        // 运行总时间
+        var run = now -  start;
+        // 总秒
+        var sumSeconds = parseInt(run / 1000);
+        // 天数
+        var d = parseInt(sumSeconds / 86400);
+        // 小时
+        var h = parseInt(sumSeconds % 86400 / 3600);
+        // 分钟
+        var min = size(parseInt(sumSeconds / 60 % 60));
+        // 秒
+        var m = size(parseInt(sumSeconds % 60));
+        // 插入
+        document.querySelector('#runtime').innerHTML =   d + "天 " + h + "小时 " + min + "分" + m + "秒";
+    }, 1000)
+    // 小于10的数，前边增加一个0
+    function size(d){
+        return d < 10 ? '0' + d : d;
+    }
+}
+
+
+
+
+    </script>
+</body>
+</html>
